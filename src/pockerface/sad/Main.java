@@ -13,6 +13,8 @@ import java.sql.SQLException;
 public class Main {
 
 	/**
+	 * @author pokerfaceSad
+         * 获取URL  
 	 * 多线程下载所有分类
 	 */
 	public static void main(String[] args) {
@@ -43,7 +45,7 @@ public class Main {
 }
 /**
  * 下载分类线程
- * @author 79864
+ * 
  *
  */
 class downloadThread implements Runnable{
